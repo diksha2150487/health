@@ -569,3 +569,124 @@ figure.snip1390 .profile {
   justify-content: center;
   margin-top: 2rem;
 }
+/* ***************************************** */
+.container7 {
+  background-color: #2d5986;
+}
+.BM {
+  margin-left: 7rem;
+}
+.container7 h3 {
+  font-size: 35px;
+  color: whitesmoke;
+
+  padding-top: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container7 h4 {
+  font-size: 20px;
+  color: whitesmoke;
+  line-height: 40px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.three > input {
+  padding: 0.9rem;
+  /* margin-top: 7rem; */
+  /* border: none; */
+  margin: 1rem 1rem 1rem 0rem;
+  width: 180px;
+}
+.name {
+  color: black;
+  font-size: 15px;
+}
+#message {
+  padding: 0.9rem;
+  width: 380px;
+}
+.sub_it {
+  padding: 0.9rem;
+  margin: 1rem;
+  width: 180px;
+  text-align: center;
+  background-color: greenyellow;
+  border: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* ************************************** */
+.container8 {
+  background-color: green;
+}
+.main {
+  display: flex;
+}
+.first1 {
+  margin-left: 7rem;
+  color: white;
+}
+#facebook {
+  margin: 1rem 1rem 1rem 0rem;
+}
+#youtube {
+  margin-right: 1rem;
+}
+#linked-in {
+  margin-right: 1rem;
+}
+/* #twitter {
+  margin-left: 0.1rem;
+} */
+.first1 h3 {
+  padding-top: 1rem;
+}
+.first2 {
+  color: white;
+  margin-left: 10rem;
+}
+.whatpp {
+  display: flex;
+}
+#what {
+  padding-top: 0.4rem;
+  font-size: 25px;
+}
+.first2 h2 {
+  margin-left: 1rem;
+  padding-top: 0.3rem;
+  font-size: 25px;
+}
+.first2 h3 {
+  font-size: 18px;
+  padding-top: 1rem;
+}
+.first3 {
+  padding-top: 1rem;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 200;
+
+  margin-left: 15rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#email {
+  padding: 0.9rem;
+  width: 490px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
+.show {
+  padding: 0.9rem;
+  margin: 1rem;
+  width: 180px;
+  text-align: center;
+  background-color: navy;
+  border: none;
+  border-radius: 6px;
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
