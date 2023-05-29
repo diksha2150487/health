@@ -361,11 +361,27 @@
         autoplayTimeout: 2000,
         autoplayHoverPause: true,
         nav: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true,
+          },
+          600: {
+            items: 3,
+            nav: false,
+          },
+          1000: {
+            items: 5,
+            nav: true,
+            loop: false,
+          },
+        },
       });
       $(".hover").mouseleave(function () {
         $(this).removeClass("hover");
       });
     </script>
+
     <!-- ************************************************************** -->
     <div class="container6">
       <h4>BEST SERVICE FOR HEALTH</h4>
