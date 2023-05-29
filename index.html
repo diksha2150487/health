@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,6 +16,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <div class="nav">
       <div class="nav_left">
@@ -362,6 +362,9 @@
         autoplayHoverPause: true,
         nav: true,
       });
+      $(".hover").mouseleave(function () {
+        $(this).removeClass("hover");
+      });
     </script>
     <!-- ************************************************************** -->
     <div class="container6">
@@ -413,53 +416,47 @@
             </blockquote>
           </figcaption>
         </figure>
-        <script>
-          $(".hover").mouseleave(function () {
-            $(this).removeClass("hover");
-          });
-        </script>
       </div>
     </div>
     <!-- ********************************************************** -->
     <div class="container7">
-      <div class="BM">
-        <h3>Get In Touch With Us</h3>
-        <h4>Feel Free to Connect With Us Any Queries</h4>
-        <div class="all_input">
-          <div class="three">
-            <input type="text" placeholder="Name" class="name" />
-            <input type="text" placeholder="Mobile No ." class="name" />
-            <input type="text" placeholder="Select City" class="name" />
-          </div>
-          <div class="two">
-            <input type="text" placeholder="Message" id="message" />
-            <input type="text" placeholder="SUBMIT" class="sub_it" />
-          </div>
+      <h3>Get In Touch With Us</h3>
+      <h4>Feel Free to Connect With Us Any Queries</h4>
+      <div class="all_input">
+        <div class="three">
+          <input type="text" placeholder="Name" class="name" />
+          <input type="text" placeholder="Mobile No ." class="name" />
+          <input type="text" placeholder="Select City" class="name" />
+        </div>
+        <div class="two">
+          <input type="text" placeholder="Message" id="message" />
+          <input type="text" placeholder="SUBMIT" class="sub_it" />
         </div>
       </div>
     </div>
     <!-- ****************************************** -->
     <div class="container8">
-        <div class="main">
-          <div class="first1">
-           <h3>Follow us on</h3>
-             <i class="fa-brands fa-facebook-f" id="facebook"></i>
-             <i class="fa-brands fa-youtube" id="youtube"></i>
-             <i class="fa-brands fa-linkedin-in" id="linked-in"></i>
-             <!-- <i class="fa-brands fa-twitter" id="twitter"></i> -->
+      <div class="main">
+        <div class="first1">
+          <h3>Follow us on</h3>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f" id="facebook"></i>
+            <i class="fa-brands fa-youtube" id="youtube"></i>
+            <i class="fa-brands fa-linkedin-in" id="linked-in"></i>
+            <i class="fa-brands fa-twitter" id="twitter"></i>
           </div>
-          <div class="first2">
-            <h3>Chat with MDRC Expect</h3>
-            <div class="whatpp">
-              <i class="fa-brands fa-whatsapp" id="what"></i>
-              <h2>Whatsapp</h2>
-            </div>
+        </div>
+        <div class="first2">
+          <h3>Chat with MDRC Expect</h3>
+          <div class="whatpp">
+            <i class="fa-brands fa-whatsapp" id="what"></i>
+            <h2>Whatsapp</h2>
           </div>
-          <div class="first3">
-            <h3>Suscribe To Our Newsletter</h3>
-            <input type="text" placeholder="Enter Email ID" id="email"/>
-            <input type="text" placeholder="SUBMIT" class="show"/>
-          </div>
+        </div>
+        <div class="first3">
+          <h3>Suscribe To Our Newsletter</h3>
+          <input type="text" placeholder="Enter Email ID" id="email" />
+          <button class="show">SUBMIT</button>
         </div>
       </div>
     </div>
