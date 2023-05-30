@@ -60,6 +60,19 @@
 .left_cont1 {
   width: 60%;
 }
+.image::before {
+  background-color: #d9d9d9;
+  opacity: 0.6;
+  position: relative;
+  z-index: 3;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
 .oneline {
   display: flex;
 }
@@ -69,6 +82,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem;
+}
+
+.certified {
+  padding: 65px 100px;
+  position: relative;
+  z-index: 2;
 }
 .worried {
   font-size: 33px;
@@ -159,8 +178,9 @@
   /* background-color: #fff; */
   border: none;
   border-radius: 4px;
+  outline: none;
 }
-.box_min > button {
+.it {
   padding: 12px;
   max-width: 6rem;
   font-size: larg;
@@ -171,6 +191,10 @@
   background-color: #ffcc00;
   margin-left: auto;
   margin-right: auto;
+}
+.it:hover {
+  background-color: crimson;
+  color: wheat;
 }
 @media (max-width: 1063px) {
   .oneline {
@@ -189,6 +213,7 @@
     padding: 1rem;
   }
 }
+
 /* ************************************************88 */
 .container2 h4 {
   font-size: 35px;
@@ -198,11 +223,24 @@
   margin: 3rem;
 }
 .img-card {
-  max-width: 270px;
+  max-width: 290px;
   position: relative;
   border-radius: 5px;
   text-align: left;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.card-image::before {
+  background-color: #d9d9d9;
+  opacity: 0.6;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
 }
 
 .img-card .card-image {
@@ -211,6 +249,8 @@
   overflow: hidden;
   border-radius: 5px 5px 0px 0px;
   height: 190px;
+  background-color: black;
+  opacity: 0.9;
 }
 
 .img-card .card-image img {
@@ -612,6 +652,8 @@ figure.snip1390 .profile {
   /* border: none; */
   margin: 1rem 1rem 1rem 0rem;
   width: 180px;
+  outline: none;
+  border-radius: 4px;
 }
 .name {
   color: black;
@@ -620,19 +662,29 @@ figure.snip1390 .profile {
 #message {
   padding: 0.9rem;
   width: 33%;
+  outline: none;
+  border-radius: 4px;
 }
 
-.sub_it {
+.mit {
   padding: 0.9rem;
   margin: 1rem;
+  border-radius: 4px;
   width: 180px;
   text-align: center;
-  background-color: greenyellow;
+  background-color: peru;
   border: none;
+  outline: none;
   color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+.mit:hover {
+  background-color: brown;
+  color: wheat;
+  border: 2px solid palevioletred;
+}
+
 /* ************************************** */
 .container8 {
   background-color: green;
@@ -719,6 +771,7 @@ figure.snip1390 .profile {
   border-radius: 5px;
   border: none;
   display: block;
+  outline: none;
 }
 .show {
   padding: 0.7rem;
@@ -732,6 +785,10 @@ figure.snip1390 .profile {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   cursor: pointer;
+}
+.show:hover {
+  background-color: #e74c3c;
+  color: wheat;
 }
 @media (max-width: 811px) {
   .main {
