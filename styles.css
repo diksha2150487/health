@@ -61,10 +61,10 @@
   width: 60%;
 }
 .image::before {
-  background-color: #d9d9d9;
+  background-color: #000000;
   opacity: 0.6;
-  position: relative;
-  z-index: 3;
+  position: absolute;
+  z-index: -1;
   top: 0px;
   right: 0px;
   left: 0px;
@@ -82,6 +82,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .certified {
@@ -91,14 +93,14 @@
 }
 .worried {
   font-size: 33px;
-
+  color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 60px;
 }
 .blood {
   font-size: 30px;
-
+  color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 12px;
@@ -114,9 +116,9 @@
 }
 .come {
   font-size: 45px;
-  /* padding-left: 5rem; */
+
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* padding-top: 1rem; */
+
   line-height: 20px;
   color: #ffcc00;
   font-weight: 700;
@@ -128,7 +130,6 @@
   height: 45px;
   display: flex;
   border-radius: 20px;
-  /* margin-left: 5rem; */
   margin-top: 5rem;
   margin-right: 3rem;
   border: none;
@@ -162,7 +163,6 @@
   display: flex;
   flex-direction: column;
   width: 25rem;
-  /* border: 1px solid black; */
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 0 10px #fff;
@@ -175,7 +175,6 @@
 .box_min > input {
   padding: 0.7rem;
   margin-top: 10px;
-  /* background-color: #fff; */
   border: none;
   border-radius: 4px;
   outline: none;
@@ -193,7 +192,7 @@
   margin-right: auto;
 }
 .it:hover {
-  background-color: crimson;
+  background-color: orchid;
   color: wheat;
 }
 @media (max-width: 1063px) {
@@ -425,15 +424,7 @@
   transform: translateY(-50%);
   background: rgba(255, 255, 255, 0.38) !important;
 }
-/* span {
-  font-size: 70px;
-  position: relative;
-  top: -5px;
-} */
-/* .owl-nav button:focus {
-  outline: none;
-} 
-*
+
 /* ******************************* */
 
 .container5 h3 {
@@ -511,7 +502,6 @@
 }
 /* ****************************************** */
 .container6 {
-  /* background-color: aqua; */
   align-items: center;
   text-align: center;
   padding-top: 2rem;
@@ -599,7 +589,7 @@ figure.snip1390 blockquote {
 }
 figure.snip1390 blockquote:before {
   font-family: "FontAwesome";
-  /* content: "\201C"; */
+
   position: absolute;
   font-size: 70px;
   opacity: 0.25;
@@ -648,8 +638,7 @@ figure.snip1390 .profile {
 
 .three > input {
   padding: 0.9rem;
-  /* margin-top: 7rem; */
-  /* border: none; */
+
   margin: 1rem 1rem 1rem 0rem;
   width: 180px;
   outline: none;
@@ -692,20 +681,15 @@ figure.snip1390 .profile {
 .main {
   display: flex;
   height: 10rem;
-  /* flex-wrap: wrap; */
 }
 .first1 {
-  /* margin-left: 7rem; */
   width: 20%;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
-
   padding: 2rem;
-  /* background-color: #ccc; */
 }
 .icons {
   display: flex;
@@ -755,11 +739,9 @@ figure.snip1390 .profile {
 .first3 {
   padding-top: 1rem;
   color: whitesmoke;
-  /* background-color: #2d5986; */
   font-size: 15px;
   font-weight: 200;
   width: 50%;
-  /* margin-left: 15rem; */
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 4rem;
   background-color: green;
@@ -781,7 +763,6 @@ figure.snip1390 .profile {
   margin-top: 0.5rem;
   border: none;
   border-radius: 6px;
-  /* color: whitesmoke; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   cursor: pointer;
